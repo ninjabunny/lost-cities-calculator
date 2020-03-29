@@ -24,7 +24,7 @@ export default {
   mode: "production",
   output: {
     path: path.resolve(__dirname, "docs"),
-    publicPath: "/",
+    publicPath: "./",
     filename: "static/[name].[contenthash].js"
   },
   plugins: [
